@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
-	"lib/storage/base"
+	"github.com/shideqin/storage/base"
 	"mime"
 	"os"
 	"path"

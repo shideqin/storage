@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"lib/storage/base"
+	"github.com/shideqin/storage/base"
 	"os"
 	"runtime"
 	"strconv"

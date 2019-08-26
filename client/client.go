@@ -1,10 +1,10 @@
-package cmd
+package client
 
 import (
 	"bytes"
-	"lib/storage/aliyun/oss"
-	"lib/storage/base"
-	"lib/storage/ceph/s3"
+	"github.com/shideqin/storage/aliyun/oss"
+	"github.com/shideqin/storage/base"
+	"github.com/shideqin/storage/ceph/s3"
 )
 
 // Client OSS客户端结构
