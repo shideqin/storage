@@ -5,7 +5,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/shideqin/storage/base"
+	"storage/base"
 	"mime"
 	"os"
 	"path"

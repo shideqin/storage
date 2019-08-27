@@ -2,9 +2,9 @@ package client
 
 import (
 	"bytes"
-	"github.com/shideqin/storage/aliyun/oss"
-	"github.com/shideqin/storage/base"
-	"github.com/shideqin/storage/ceph/s3"
+	"storage/aliyun/oss"
+	"storage/base"
+	"storage/ceph/s3"
 )
 
 // Client OSS客户端结构

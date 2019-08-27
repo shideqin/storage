@@ -1,3 +1,3 @@
-module github.com/shideqin/storage
+module storage
 
 go 1.12
