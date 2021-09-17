@@ -1,4 +1,4 @@
-package base
+package storagebase
 
 // ServiceResult 获取bucket列表结果
 type ServiceResult struct {
@@ -12,6 +12,19 @@ type ServiceResult struct {
 			CreationDate string `xml:"CreationDate"`
 		} `xml:"Bucket"`
 	} `xml:"Buckets"`
+}
+
+// AclResult 获取bucket Acl列表结果
+type AclResult struct {
+	Owner struct {
+		ID          string `xml:"ID"`
+		DisplayName string `xml:"DisplayName"`
+	} `xml:"Owner"`
+	AccessControlList struct {
+		Grant struct {
+			Permission string `xml:"Permission"`
+		} `xml:"Grant"`
+	} `xml:"AccessControlList"`
 }
 
 // ListPartsResult 获取分块列表结果
@@ -75,6 +88,6 @@ type ListObjectContents struct {
 	LastModified string `xml:"LastModified"`
 	ETag         string `xml:"ETag"`
 	Type         string `xml:"Type"`
-	Size         string `xml:"Size"`
+	Size         int    `xml:"Size"`
 	StorageClass string `xml:"StorageClass"`
 }

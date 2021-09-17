@@ -1,3 +1,3 @@
-module storage
+module mss.git.kkyoo.com/shideqin/storage
 
-go 1.12
+go 1.14
